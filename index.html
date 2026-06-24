@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sonsuz 2D Platform - Çok Katmanlı Paralaks Orman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="touchControls" class="touch-controls hidden">
+        <div class="control-group">
+            <div id="btnLeft" class="btn">←</div>
+            <div id="btnRight" class="btn">→</div>
+        </div>
+        <div class="control-group">
+            <div id="btnJump" class="btn">↑</div>
+        </div>
+    </div>
+    <script src="world.js"></script>
+    <script src="physics.js"></script>
+    <script src="player.js"></script>
+    <script src="draw.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
